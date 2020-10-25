@@ -1,0 +1,172 @@
+
+.menu {
+	display: flex;
+	justify-content: flex-start;
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(40, 122, 98) 34%, rgb(74, 194, 18) 100%);
+	color: rgb(35, 165, 182);
+	padding-right: 20px;
+}
+
+
+.home_page h1 {
+	background: #2A88AD;
+	padding: 20px 20px 15px 20px;
+	margin: -20px -20px 20px -20px;
+	border-radius: 10px 10px 0 0;
+	-webkit-border-radius: 10px 10px 0 0;
+	-moz-border-radius: 10px 10px 0 0;
+	color: #fff;
+	text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+	font: normal 30px 'Bitter', serif;
+	-moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	-webkit-box-shadow: inset 0px 2px 2px 0px rgba(79, 49, 128, 0.17);
+	box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+	border: 1px solid #257C9E;	
+}
+
+.home_page h1 > span {
+	display: block;
+	margin-top: 2px;
+	font: 13px Arial, Helvetica, sans-serif;	
+}
+
+
+
+
+.top_nav {
+	text-align: left
+}
+
+.top_nav li {
+	display: inline
+}
+
+.top_nav li a {
+    display: inline;
+    text-decoration: none;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 20px 15px;
+	text-transform: uppercase;
+	-webkit-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s
+}
+
+.top_nav li a:hover {
+	background-color: #2ea9e2;
+}
+
+.banner {
+	width: 100%;
+	height:auto ;
+	text-align:center;
+	background-color:black;
+}
+
+.banner img {
+	width: 30%;	
+	
+}
+
+#top_ide {
+    
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: center;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(40, 122, 98) 34%, rgb(74, 194, 18) 100%);
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+
+
+#footer {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgb(40, 122, 98) 34%, rgb(74, 194, 18) 100%);
+    color:white
+}
+
+
+.copyright {
+	text-align: center;
+     width: 50%;
+    padding-top: 5px;
+    padding-right: 5px;
+    
+}
+
+.copyright a {
+    color: white
+}
+
+section {
+margin:30px;
+display:flex;
+justify-content: space-around;
+flex-wrap: wrap;
+	
+}
+
+
+  
+  h2 { 
+	color: #076b20;
+	font-weight: 500;
+
+  }
+
+  
+  
+
+  section { 
+	  display:flex;
+	  justify-content: center;
+	  width:100%;
+  }
+  .home_page {
+	display:block;
+	width:60rem;
+	padding:20px;
+	margin:10px 10px;
+	background: #FFF;
+	border-radius: 10px;
+	-webkit-border-radius:10px;
+	-moz-border-radius: 10px;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-moz-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+	-webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.13);
+  }
+  
+	  
+	.column {
+		flex: 48%;
+		text-align: justify;
+		padding: 10px;
+		text-align: center;
+		
+	   }
+
+	  
+	  
+	body {
+		background-image: url(https://thumbs.dreamstime.com/b/code-anim%C3%A9-abstrait-de-programmation-par-ordinateur-comme-fond-de-technologie-47207494.jpg);
+		background-color: #f2f2f2;
+		font-family: 'RobotoDraft', 'Roboto', sans-serif;
+		-webkit-font-smoothing: antialiased;
+	}
+
+	.description {
+		text-align: center;
+		font-size: larger;
+
+	}
+	
+	.home_page{
+		text-align: center;
+		font-size: larger;
+	}
+
